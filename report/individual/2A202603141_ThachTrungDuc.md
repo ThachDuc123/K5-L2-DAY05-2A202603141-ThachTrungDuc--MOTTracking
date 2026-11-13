@@ -35,11 +35,11 @@ Số keyframe và mật độ lấy từ kết quả `src/check_submission.py` (
 
 | Mã | Số keyframe | Keyframe ở frame | Số frame có mặt | Keyframe / 100 frame | Thời gian (phút) | Chỗ khó |
 |---|---:|---|---:|---:|---|---|
-| P1 | 12 | 0, 20, 30, 60, 70, 80, 90, 100, 110, 120, 130, 140 | 150 | 8.0 | `___` | Đoạn che 30–59: box phải giữ amodal, không co theo phần thấy |
-| P2 | 14 | 0, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110, 120, 130, 140 | 150 | 9.3 | `___` | Cuối đoạn tăng tốc sang trái, box dễ chậm hơn người |
-| P3 | 10 | 0, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110 | 110 | 9.1 | `___` | Người đứng gần như bất động rồi ra khỏi khung: keyframe cuối ở frame 110 |
-| P4 | 10 | 0, 20, 30, 40, 50, 60, 70, 80, 90, 100 | 150 | 6.7 | `___` | Bị che 100–149: giữ amodal box, chỉ chỉnh ở keyframe quanh đoạn che |
-| P5 | 11 | 40, 50, 60, 70, 80, 90, 100, 110, 120, 130, 140 | 110 | 10.0 | `___` | Chỉ có từ frame 40, box phải bám ngay từ frame xuất hiện |
+| P1 | 12 | 0, 20, 30, 60, 70, 80, 90, 100, 110, 120, 130, 140 | 150 | 8.0 | `2'` | Đoạn che 30–59: box phải giữ amodal, không co theo phần thấy |
+| P2 | 14 | 0, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110, 120, 130, 140 | 150 | 9.3 | `3'` | Cuối đoạn tăng tốc sang trái, box dễ chậm hơn người |
+| P3 | 10 | 0, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110 | 110 | 9.1 | `2'` | Người đứng gần như bất động rồi ra khỏi khung: keyframe cuối ở frame 110 |
+| P4 | 10 | 0, 20, 30, 40, 50, 60, 70, 80, 90, 100 | 150 | 6.7 | `2'` | Bị che 100–149: giữ amodal box, chỉ chỉnh ở keyframe quanh đoạn che |
+| P5 | 11 | 40, 50, 60, 70, 80, 90, 100, 110, 120, 130, 140 | 110 | 10.0 | `2'` | Chỉ có từ frame 40, box phải bám ngay từ frame xuất hiện |
 | **Tổng** | **57** | — | **670** | **8.5** | — | — |
 
 Keyframe / 100 frame của cả bài = 57 ÷ 670 × 100 = **8,5**.
