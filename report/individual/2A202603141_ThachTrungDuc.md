@@ -12,8 +12,8 @@
 - Mã đề (A/B/C): **B** (5 người: P1–P5, ID gốc MOT17-09: 1, 19, 20, 21, 22)
 - Email: thachduc1201@gmail.com
 - Link repository: https://github.com/ThachDuc123/K5-L2-DAY05-2A202603141-ThachTrungDuc--MOTTracking
-- Giờ bắt đầu: `________` (giờ GMT+7 ngày làm lab)
-- Giờ kết thúc: `________`
+- Giờ bắt đầu: `16:30` (giờ GMT+7 ngày làm lab)
+- Giờ kết thúc: `22:10`
 
 ## 1. Xem trước đoạn video (CP0)
 
