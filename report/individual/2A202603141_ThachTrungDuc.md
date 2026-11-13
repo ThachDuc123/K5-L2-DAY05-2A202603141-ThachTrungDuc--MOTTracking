@@ -176,4 +176,3 @@ Chưa làm bonus (ưu tiên hoàn thành CP0–CP4).
 - CVAT Community — [MOT format](https://docs.cvat.ai/docs/dataset_management/formats/format-mot/), [CVAT for video format](https://docs.cvat.ai/docs/dataset_management/formats/format-cvat/).
 - Tài liệu lab: `docs/GUIDELINE.md`, `docs/MOT_FORMAT.md`, `CHECKPOINTS.md`, `RUBRIC.md`, `SUBMISSION.md`.
 - Công cụ: `src/check_submission.py` (tự kiểm file xuất), `src/setup_local_lab.py` (tạo task theo MSSV).
-- **Trợ lý AI (ZCode):** dùng để tra định dạng MOT 1.1 / CVAT for video 1.1, thống kê số keyframe và đoạn `occluded` từ file xuất, và hỗ trợ soạn báo cáo theo dữ liệu xuất thật. Toàn bộ phần gán nhãn trên CVAT do sinh viên thực hiện.
