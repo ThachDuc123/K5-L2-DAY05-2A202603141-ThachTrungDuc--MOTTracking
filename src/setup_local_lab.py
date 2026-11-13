@@ -48,7 +48,7 @@ def local_server(value):
         or url.query
         or url.fragment
     ):
-        raise argparse.ArgumentTypeError("Dùng địa chỉ CVAT local, ví dụ http://localhost:8080.")
+        raise argparse.ArgumentTypeError("Dùng địa chỉ CVAT local, ví dụ http://localhost:8081.")
     return value.rstrip("/")
 
 
@@ -168,7 +168,7 @@ def open_or_create_job(client, task_name, frames):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--mssv", type=student_id, help="MSSV. Bỏ qua để nhập khi chạy.")
-    parser.add_argument("--server", default="http://localhost:8080", type=local_server)
+    parser.add_argument("--server", default="http://localhost:8081", type=local_server)
     parser.add_argument("--frames-dir", type=Path, help="Thư mục có 150 ảnh MOT17-09 đã tải.")
     modes = parser.add_mutually_exclusive_group()
     modes.add_argument("--assignment-only", action="store_true", help="Chỉ xem mã đề.")
